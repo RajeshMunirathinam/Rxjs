@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  background: #ececec;
+}
+
+.header {
+  margin: 2rem;
+  text-align: center;
+}
+
+.content {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: 10%;
+      -ms-flex-pack: 10%;
+          justify-content: 10%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content input {
+  padding: 1rem !important;
+  margin: 30px 30px 0 30px;
+  width: 300px;
+  border: none;
+  text-decoration: none;
+}
+
+.content .formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: #b4b4b4 solid 1px;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 10%;
+}
+
+.content .formContainer #typeInput {
+  border-radius: 0.5rem;
+  border: #b4b4b4 solid 1px;
+}
+
+.content .formContainer #clickMe {
+  margin-bottom: 30px;
+  background: #2b97f0;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+}
+
+.content .formContainer #clickMe:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content .info {
+  margin: 30px;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=styles.css.map */
